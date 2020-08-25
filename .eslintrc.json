@@ -4,5 +4,12 @@
   "rules": {
     "prettier/prettier": ["error"]
   },
-  "env": { "jest": true }
+  "env": { "jest": true },
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module",
+    "ecmaFeatures": {
+        "jsx": true
+    }
+  }
 }
